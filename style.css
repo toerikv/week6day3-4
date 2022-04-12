@@ -1,0 +1,76 @@
+ #createButton {
+    font-family: Helvetica;
+    padding: 10px;
+    text-decoration: solid;
+    color:blue;
+    /* background-color: rgb(232, 232, 232); */
+    display: inline-block;
+    /* border: 1px solid rgb(7, 7, 7); */
+    /* border-radius: 6px; */
+  }
+
+  .edit {
+    font-family: Helvetica;
+    padding: 10px;
+    text-decoration: solid;
+    color:blue;
+    /* display: inline-block; */
+    display: flexbox;
+  }
+
+  .Delete {
+    font-family: Helvetica;
+    padding: 10px;
+    text-decoration: solid;
+    color:blue;
+    display: inline-block;
+  }
+  
+
+  #Title {
+    background-color: white;
+    display: inline-block;
+    padding:30px;
+    font-family: Helvetica;
+    border-radius: 3px;
+  }
+  #createButton:hover, .toggleText:hover {
+    cursor: pointer;
+  }
+  #container {
+    display: flex; 
+    background-color: #a4a3a3; 
+  }
+  #container h1 {
+    display: flex;
+   
+    align-items: center;
+    font-family: Helvetica;
+    margin-top: 20px;
+
+  }
+  img {
+    padding: 5px;
+    width: 80px;
+
+  }
+  .toggleText {
+    padding: 10px;
+    margin-right: 10px;
+    color: lightBlue;
+  }
+  
+  .noDisplay {
+    display: none;
+  }
+
+  .Comment {
+    background-color: gray;
+  }
+
+  .inputSection {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0;
+  }
